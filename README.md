@@ -97,7 +97,7 @@ This established that the test generated the expected failed authentication acti
 
 ### Screenshot
 
-![SMB Connectivity Test](screenshots/01-smb-connectivity-test.png)
+![SMB Connectivity Test](images/01-smb-connectivity-test.png)
 
 ---
 
@@ -121,7 +121,7 @@ This provided a controlled simulation of repeated password-guessing behavior wit
 
 ### Screenshot
 
-![Repeated Failed Authentication Attempts](screenshots/02-repeated-failed-logins.png)
+![Repeated Failed Authentication Attempts](images/02-repeated-failed-logins.png)
 
 ---
 
@@ -160,7 +160,7 @@ The timestamps also showed multiple authentication failures occurring only secon
 
 ### Screenshot
 
-![Windows Failed Logons in Splunk](screenshots/03-event-4625-failed-logins.png)
+![Windows Event ID 4625 Failed Logons](images/03-event-4625-failed-logins.png)
 
 ---
 
@@ -197,7 +197,7 @@ This transformed the raw authentication telemetry into actionable detection logi
 
 ### Screenshot
 
-![Brute Force SPL Detection](screenshots/04-brute-force-detection.png)
+![Brute Force SPL Detection](images/04-brute-force-detection-rule.png)
 
 ---
 
@@ -232,7 +232,7 @@ This allowed the detection logic to operate automatically rather than requiring 
 
 ### Screenshot
 
-![Splunk Brute Force Alert](screenshots/05-splunk-alert.png)
+![Splunk Alert Configuration](images/05-splunk-alert-configuration.png)
 
 ---
 
@@ -286,7 +286,7 @@ This provided additional context beyond simply identifying that authentication h
 
 ### Screenshot
 
-![Windows Authentication Failure Analysis](screenshots/06-authentication-failure-analysis.png)
+![Source-Specific Investigation](images/06-source-specific-investigation.png)
 
 ---
 
